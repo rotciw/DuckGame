@@ -1,0 +1,43 @@
+[0529/123403:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/123403:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/123404:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[0529/123404:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/123404:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[0529/123432:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/123439:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,4", source: about:docKey-2 (0)
+[0529/123439:INFO:CONSOLE(4)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/V1404Z~1/AppData/Local/Temp/Adobe/Edge%20Animate%206.0.0/Untitled-1/edge_includes/jquery-2.0.3.min.js (4)
+[0529/123458:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,0", source: about:docKey-8 (0)
+[0529/123458:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/V1404Z~1/AppData/Local/Temp/Adobe/Edge%20Animate%206.0.0/Untitled-1/edge_includes/jquery-2.0.3.min.js (0)
+[0529/123517:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/123518:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/V1404Z~1/AppData/Local/Temp/Adobe/Edge%20Animate%206.0.0/Untitled-2/edge_includes/edge.6.0.0.min.js:74:288)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:57", source:  (1)
+[0529/123707:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,0", source: about:docKey-43 (0)
+[0529/123707:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/V1404Z~1/AppData/Local/Temp/Adobe/Edge%20Animate%206.0.0/Untitled-2/edge_includes/jquery-2.0.3.min.js (0)
+[0529/123817:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/123820:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0529/123824:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0529/123824:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0529/123826:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/123831:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,4", source: about:docKey-66 (0)
+[0529/123831:INFO:CONSOLE(4)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/V1404Z~1/AppData/Local/Temp/Adobe/Edge%20Animate%206.0.0/Untitled-4/edge_includes/jquery-2.0.3.min.js (4)
+[0529/124124:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0529/124124:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/124808:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/124825:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/124849:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/124933:INFO:CONSOLE(376)] "ERROR fetching font meta-data!{"readyState":0,"responseText":"","status":0,"statusText":"error"}", source: http://127.0.0.1:54321/edgeResources/edgewebfonts/edgewebfonts.js (376)
+[0529/125351:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/125417:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,4", source: about:docKey-2801 (0)
+[0529/125417:INFO:CONSOLE(4)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/V1404Z~1/AppData/Local/Temp/Adobe/Edge%20Animate%206.0.0/Untitled-5/edge_includes/jquery-2.0.3.min.js (4)
+[0529/130317:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0529/130317:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:13)
+    at <anonymous>:0:61", source:  (1)
+[0529/131503:ERROR:dns_config_service_win.cc(739)] DNS config watch failed.
+[0529/134641:ERROR:ipc_channel_win.cc(405)] pipe error: 232

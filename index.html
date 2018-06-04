@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Project Zoo</title>
+
+    <!-- Bootstrap -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="css/toastr.min.css" rel="stylesheet">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div id="all"></div>
+<h1 id="centerText">Project: Zoo</h1>
+     
+<div id="highscore"></div>
+<div id="score"></div>
+<div id="toosmallscreen"><a class="smallscreen">Please increase the size of your window.</a></div>
+<div id="test"></div>
+
+<div id="duck"></div>
+<div id="penguin"></div>
+   <div id="monkey"></div>    
+<button id="pause"><i class="fa fa-flag" aria-hidden="true"></i></button>
+   
+    <div id="container">
+         <div id="backgroundContainer">
+         <div id="backbtn1"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+         <div id="aboutContent">Project: Zoo is a game. This game is made as a group project.
+              <div id="instructions"><i class="fa fa-arrow-up" aria-hidden="true"></i> or <b>SPACE</b> = Jump<br><i class="fa fa-arrow-down" aria-hidden="true"></i> = Duck</div></div>
+          <div id="backbtn2"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+             
+         <div id="storeContent"><h1>Store</h1>
+        <div class="row">
+            <div class="col-md-4"><div id="duckStore" title="Duck" data-toggle="popover1" data-placement="bottom" data-content="Unlocked"></div></div>
+            <div class="col-md-4"><div id="penguinStore"  title="Penguin" data-toggle="popover2" data-placement="bottom" data-content=""></div></div>
+            <div class="col-md-4"><div id="monkeyStore"  title="Monkey" data-toggle="popover3" data-placement="bottom" data-content="Unlock after 1500 in highscore"></div></div>
+        </div>          
+        <div class="row under">
+            <div class="col-md-4"><div id="penguinStore"  title="Header" data-toggle="popover4" data-placement="bottom" data-content="Unlock after 2000 in highscore"></div></div>
+            <div class="col-md-4"><div id="penguinStore"  title="Header" data-toggle="popover5" data-placement="bottom" data-content="Unlock after 2500 in highscore"></div></div>
+            <div class="col-md-4"><div id="duckStore"  title="Header" data-toggle="popover6" data-placement="bottom" data-content="Unlock after 3000 in highscore"></div></div>
+        </div> 
+        
+           <div id="leftbtn" class="col-md-6"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+             
+        </div>
+         <div id="backbtn3"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+             <div id="leaderboardContent"><h1>Leaderboard</h1><table><tr><td>Hei</td><td>Hei</td></tr><tr><td>hei</td></tr></table>
+             
+        <!-- PHP get element from DB -->
+             
+<!--
+
+<?php
+include('leaderboard.php');
+    
+$sqlget = "SELECT name, score\n"
+    . "FROM leaderboard\n"
+    . "JOIN (SELECT distinct score score3\n"
+    . " FROM leaderboard\n"
+    . " ORDER BY score DESC\n"
+    . " LIMIT 2, 1) x\n"
+    . "ON score >= score3\n"
+    . "ORDER by score DESC\n"
+    . "\n"
+    . "";;
+$sqldata = mysqli_query($conn, $sqlget) or die ('error getting');
+
+echo "<table>";
+echo "<tr><th>NAME</th><th>SCORE</th></tr>" ;
+    
+while ($row = mysqli_fetch_array($sqldata, MYSQLI_ASSOC)) {
+    echo "<tr><td>" ;
+    echo $row['name'] ;
+    echo "</td><td>" ;;
+    echo $row['score'] ;
+    echo "</td></tr>" ; 
+}
+    
+echo "</table>" ;
+    
+?>
+             
+-->
+             
+        </div>
+        </div> 
+        <div id="warning"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Please play at full screen!</div>
+      <button id="start">Start</button>
+      <button id="store" data-toggle="modal" data-target="#myShop">Store</button>
+     <button id="leaderboard" data-toggle="modal" data-target="#myLeaderboard">Leaderboard</button>
+      <button id="about">About</button>
+     
+      </div>
+      <div id="clouds"></div>
+
+     
+  <div id="gameover"><div id="gameoverscore"></div>
+     
+      <!-- gameover submit database -->
+      <form>
+      <input type="hidden" name="score" id="score" >  <!-- IMPORTANT -->
+      <input type="text" id="nameInput" placeholder="Your name" maxlength="12">
+      <input type="submit" id="submitted">
+      </form>
+      
+      <!-- php -->
+      
+      <!-- end -->
+
+      <button id="home"><i class="fa fa-home" aria-hidden="true"></i></button>
+      <button id="playagain">Play Again</button>
+      
+      </div>
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/myscript.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/toastr.min.js"></script>
+  </body>
+</html>

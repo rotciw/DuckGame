@@ -1,0 +1,541 @@
+/*Objects in the game*/
+#duck {
+    background: url("../images/DUCK.gif");
+	width: 12vmin;
+	height: 15vmin;
+	background-size: 12vmin 15vmin;
+	position:absolute;
+    top: 35vh;
+    left: 10vw;
+    z-index: -2;
+}
+
+#duckStore {
+    background: url("../images/DUCKJUMP.png");
+	width: 12vmin;
+	height: 15vmin;
+	background-size: 12vmin 15vmin;
+	position:absolute;
+    cursor: pointer;
+}
+#penguin {
+      background: url("../images/penguin.gif");
+	width: 12vmin;
+	height: 15vmin;
+	background-size: 12vmin 15vmin;
+	position:absolute;
+    top: 35vh;
+    left: 10vw;
+     z-index: -2;
+}
+#penguinStore {
+    background: url("../images/penguin.png");
+	width: 12vmin;
+	height: 15vmin;
+	background-size: 12vmin 15vmin;
+	position:absolute;
+    cursor: pointer;
+}
+
+#monkey {
+      background: url("../images/monkey.gif");
+	width: 15vmin;
+	height: 15vmin;
+	background-size: 15vmin 15vmin;
+	position:absolute;
+    top: 35vh;
+    left: 10vw;
+     z-index: -2;
+}
+#monkeyStore {
+    background: url("../images/monkey.png");
+	width: 15vmin;
+	height: 15vmin;
+	background-size: 15vmin 15vmin;
+	position:absolute;
+    cursor: pointer;
+}
+
+.cloud1 {
+     background: url("../images/cloud1.png");
+    width: 40vmin;
+	height: 15vmin;
+	background-size: 40vmin 15vmin;
+    position:absolute;
+     top: 2vh;
+    left: 100vw;
+     z-index: -2;
+}
+.cloud2 {
+     background: url("../images/cloud2.png");
+   width: 40vmin;
+	height: 15vmin;
+	background-size: 40vmin 15vmin;
+    position:absolute;
+    top: 2vh;
+    left: 100vw;
+     z-index: -2;
+}
+
+.cloud3 {
+     background: url("../images/cloud3.png");
+     width: 40vmin;
+	height: 15vmin;
+	background-size: 40vmin 15vmin;
+    position:absolute;
+    top:2vh;
+    left: 100vw;
+    z-index: -2;
+}
+
+.under {
+    margin: 20vmin;
+}
+#leftbtn {
+    font-family: 'VT323', monospace;
+    font-size: 8vmin;
+    color: white; 
+    cursor: pointer;
+}
+#rightbtn1 {
+     font-family: 'VT323', monospace;
+    font-size: 8vmin;
+    color: white;
+ text-align: right;
+    cursor: pointer;
+}
+
+.grass { 
+    background:  url("../images/grass.png") no-repeat;
+   width: 100vw;
+	height: 12.5vmin;
+    background-size: 100vw 12.5vmin;
+	position:absolute;
+    top: 37.2vh;
+    left: 100vw;
+    z-index: -2;
+}
+.grass2 { 
+    background:  url("../images/grass3.png") no-repeat;
+   width: 100vw;
+	height: 12.5vmin;
+    background-size: 100vw 12.5vmin;
+	position:absolute;
+    top: 37.2vh;
+    left: 100vw;
+    z-index: -2;
+}
+.grass3 { 
+    background:  url("../images/grass.png") no-repeat;
+   width: 100vw;
+	height: 12.5vmin;
+    background-size: 100vw 12.5vmin;
+	position:absolute;
+    top: 37.2vh;
+    left: 100vw;
+    z-index: -2;
+}
+.grass4 { 
+    background:  url("../images/grass3.png") no-repeat;
+   width: 100vw;
+	height: 12.5vmin;
+    background-size: 100vw 12.5vmin;
+	position:absolute;
+    top: 37.2vh;
+    left: 100vw;
+    z-index: -2;
+}
+.crate { 
+    background:  url("../images/box.png") no-repeat;
+   width: 12vmin;
+	height: 12.5vmin;
+    background-size: 12vmin 12.5vmin;
+	position:absolute;
+    top: 38vh;
+    left: 100vw;
+      z-index: -3;
+}
+
+.crate2 { 
+    background:  url("../images/box.png") no-repeat;
+    width: 12vmin;
+	height: 12.5vmin;
+    background-size: 12vmin 12.5vmin;
+	position:absolute;
+    top: 38vh;
+    left: 100vw;
+      z-index: -3;
+}
+
+.tree { 
+    background:  url("../images/tree.png") no-repeat;
+    width: 12vmin;
+	height: 12.5vmin;
+    background-size: 12vmin 12.5vmin;
+	position:absolute;
+    top: 37.5vh;
+    left: 100vw;
+      z-index: -3;
+}
+
+.bird { 
+    background:  url("../images/bird.gif") no-repeat;
+    width: 12vmin;
+	height: 12.5vmin;
+    background-size: 12vmin 12.5vmin;
+	position:absolute;
+    top: 30vh;
+    left: 100vw;
+      z-index: -3;
+}
+/*Objects in the game END*/
+body {
+	background: url("../images/background.png");
+    background-size: 100vw 100vh;
+	width: 100%;
+	height: 100%;
+    overflow: hidden;
+}
+/*Center game name text*/
+#centerText {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 11vmin;
+    color: white;
+    top: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 5vmin;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    cursor: default;
+    z-index: 1;
+    
+}
+/*Center game name text END*/
+/*Score display */
+#score {
+     font-family: 'VT323', monospace;
+    font-size: 2.3vw;
+    overflow: hidden;
+    position: absolute;
+    right: 5vmin;
+    top:11vmin;
+}
+
+#highscore {
+     font-family: 'VT323', monospace;
+    font-size: 3vw;
+    overflow: hidden;
+    position: absolute;
+    right: 5vmin;
+    top:5vmin;
+}
+/*Score display END*/
+/*Scale according to screen resizing*/
+#toosmallscreen {
+    color: transparent !important;
+    outline: none;
+}
+
+@media screen and (max-width: 768px), screen and (max-height: 568px){
+    #toosmallscreen {
+        background-color: rgba(254, 254, 254, 0.9);
+        height: 100vmax;
+        width: 100vmax;
+        top:0;
+        left:0;
+        position: absolute;
+        z-index: 2;
+        color: red;
+      
+    }
+    #toosmallscreen a {
+          position: absolute; 
+          top: 30vh;
+          margin-left:50px;
+          margin-right: 50px;
+          white-space:pre-wrap;
+          font-size: 15vmin;
+          font-family: 'VT323', monospace;
+    }      
+}
+/*Scaling END*/
+/*Container for buttons*/
+#container {
+    position: absolute;
+    left:43vw;
+}
+#backgroundContainer {
+    left:-18vmin;
+    top: -6vmin;
+    background: rgba(0,0,0,0.8);
+    height:70vmin;
+    width: 64.5vmin;
+    position: relative;
+    border: 2px solid green;
+}
+
+#warning {
+     left:-18vmin;
+    top: -6vmin;
+    background:rgba(255,215,0,0.8);
+    height:10vmin;
+    width: 64.5vmin;
+    position: relative;
+    border: 2px solid green;
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+    padding-top:2vh;
+     font-family: 'VT323', monospace;
+    cursor: pointer;
+}
+
+#instructions {
+     left:4vmin;
+    top: 30vmin;
+    background:rgba(255,215,0,0.8);
+    height:15vmin;
+    width: 22vw;
+    position: relative;
+    border: 2px solid green;
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+    padding-top:2vh;
+     font-family: 'VT323', monospace;
+    cursor:help;
+    position: absolute;
+}
+#all {
+    top:0;
+    height: 100vmax;
+    width: 100vmax;
+    background: rgba(0,0,0,0.5);
+      position: absolute;
+    z-index: -1;
+}
+#start {
+    position: absolute;
+    top:0;
+}
+
+#store {
+    position: absolute;
+    top: 15vmin;
+    
+}
+#leaderboard {
+    position: absolute;
+    top: 30vmin;
+    text-align: center;
+    display: table;
+  margin: 0 auto;
+    left:-8vmin;
+    
+}
+
+#about {
+    position: absolute;
+    top: 45vmin;
+    
+}
+#pause {
+  top: 4vmin;
+  left: 7vmin;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  font-size: 7vmin;
+  color: ;
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#pause:hover {
+    
+}
+#pause:active {
+ -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+ 
+}
+
+.smallscreen {
+    color:transparent;
+    cursor: default
+}
+.smallscreen:hover {
+    color: transparent;
+    cursor: default;
+}
+
+#container button  {
+  outline: none;
+  cursor: pointer;
+  font-family: 'VT323', monospace;
+  font-size: 7vmin;
+  color: black;
+  background-color: #4CAF50;
+  text-shadow: -1px 1px #4CAF50 ;
+  border: 5px double rgba(0,0,0,0.9);
+  padding: 10px;
+  padding-left:50px;
+  padding-right: 50px;
+}
+#container button:hover {
+  background-color: #C8E6C9;
+  text-shadow: -1px 1px #4CAF50;
+
+}
+#container button:active {
+  background-color: #C8E6C9;
+  text-shadow: -1px 1px #4CAF50;
+}
+
+/* Container for buttons END*/
+
+/*Disable all user marking*/
+* {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+/*Disable all user marking END*/
+#test2 {
+    position: absolute;
+}
+
+#aboutContent {
+    font-family: 'VT323', monospace;
+    font-size: 5vmin;
+    color: white;
+    position: absolute;
+    top: 5vmin;
+    margin: 5vmin;
+    text-align: center;
+}
+
+#storeContent {
+    font-family: 'VT323', monospace;
+    color: white;
+    padding-left:3vmin;
+    top: 2vmin;
+    margin: 5vmin;
+   
+}
+#storeContent h1 {
+    font-size: 8vmin;
+    text-align: center;
+    vertical-align: middle;
+ 
+}
+
+#leaderboardContent {
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 5vmin;
+    top: 2vmin;
+    margin: 5vmin;
+   
+}
+#leaderboardContent h1 {
+    font-size: 10vmin;
+    text-align: center;
+    vertical-align: middle;
+ 
+}
+
+#leaderboardContent table {
+    font-size: 7vmin;
+    text-align: center;
+    vertical-align: middle;
+ 
+}
+
+#backbtn1, #backbtn2, #backbtn3 {
+    font-family: 'VT323', monospace;
+    font-size: 5vmin;
+    color: white;
+    position: absolute;
+    left:3vmin;
+    top: 3vmin;
+    cursor: pointer;
+}
+
+/* GAME OVER*/
+#gameover {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 12vmin;
+    color: white;
+    top: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 5vmin;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    cursor: default;
+    z-index: 1;
+    
+}
+
+#playagain, #home, #submitted, #name  {
+  outline: none;
+  cursor: pointer;
+  font-family: 'VT323', monospace;
+  font-size: 7vmin;
+  color: black;
+  background-color: #4CAF50;
+  text-shadow: -1px 1px #4CAF50 ;
+  border: none;
+  padding: 10px;
+  padding-left:50px;
+  padding-right: 50px;
+}
+#playagain:hover, #home:hover, #submitted:hover, #name:hover {
+  background-color: #C8E6C9;
+  text-shadow: -1px 1px #4CAF50;
+
+}
+#playagain:active, #home:hover, #submitted:hover, #name:hover {
+  background-color: #C8E6C9;
+  text-shadow: -1px 1px #4CAF50;
+}
+
+#nameInput {
+    background-color: #4CAF50;
+    color:black;
+     font-size: 7vmin;
+     text-shadow: -1px 1px #4CAF50 ;
+  border: none;
+  padding: 10px;
+  padding-left:20px;
+  padding-right: 20px;
+    outline:none;
+    width:50vmin;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black ;
+}
